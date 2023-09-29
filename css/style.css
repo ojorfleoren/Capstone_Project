@@ -85,9 +85,7 @@
     }
     /*Team section*/
     #container-four{
-        padding: 10px 40px;
-        background-color: ;
-        
+    padding: 10px 40px;  
     }   
     .card {
         overflow: hidden;
@@ -177,8 +175,8 @@
       
       
     footer{
-        height: 8vh;
-        background-image: url(/img/Simple\ Shiny.svg);
+      height: 8vh;
+      background-image: url(/img/Simple\ Shiny.svg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -195,7 +193,6 @@
     .foot-content div{
       flex: 0 50%;
       max-width: 40%;
-      margin-right: 1em;
     }
     .copyright{
       text-align: center;
@@ -223,16 +220,20 @@
     margin: 0.8em 0 0.8em 0;
     font-size: 2.8em;
   }
+  h2 {
+    font-size: 2em;
+  }
   p{
     margin-bottom: 1em;
   }
   section{
-      padding: 30px 40px;
+      padding: 3em 5em;
   }
   .container{
-    padding: 0 3em 1.5em 3em;
+    padding: 0 2em 2em 2em;
   }
   .heading{
+    padding: 0 30px;
     height: 3.5em;
   }
   nav {
@@ -247,7 +248,7 @@
   }
   
   /*Section one start*/
-  /*About us*/
+  /*About us subtitle*/
   .about-section{
     background-image: url(/img/sea-5603352_1280.jpg);
     background-repeat: no-repeat;
@@ -271,12 +272,14 @@
       transform: scale(1);
     }
   } 
+  /*About Story of SOLID*/
   .about-content{
     background-image: url(/img/Simple\ Shiny.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
     height: 41em;
+
   }
   .about-story h2{
     text-align: center;
@@ -286,14 +289,11 @@
   .about-story{
     background-color: white;
     position: absolute;
-    top: 50%;
-    margin: 5em 20em 0 19em;
+    top: 45%;
     width: 50%;
     border: 1px solid;
-  }
-  .about-story{
-    border: 1px solid;
-    box-shadow: 1px 1px 5px;
+    margin: 5em 20em 0 16.9em ;
+    box-shadow: 1px 1px 10px;
     animation: myAnim 2s ease 0s 1 normal forwards;
   }
   @keyframes myAnim {
