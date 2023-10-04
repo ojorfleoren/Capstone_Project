@@ -227,10 +227,10 @@
     margin-bottom: 1em;
   }
   section{
-      padding: 3em 5em;
+      padding: 3em 4em;
   }
   .container{
-    padding: 0 2em 2em 2em;
+    padding: 0 2em 3em 2em;
   }
   .heading{
     padding: 0 30px;
@@ -367,7 +367,7 @@
   }
   #container-four{
     background-color: whitesmoke;
-    padding: 0 2.5em 2em 3em;
+    padding: 0 1em 2em 1.5em;
     box-shadow: 1px 1px 10px;
   }
   .card {
@@ -410,7 +410,7 @@
     }
     
     .card .img {
-      width: 11.1em;
+      width: 11em;
       height: 10em;
       overflow: hidden;
       background: white;
@@ -418,7 +418,7 @@
       margin:1em 1.4em 0.50em 1.4em;
     }
     #profile{
-      width: 11.1em;
+      width: 11em;
       height: 10em;
       border-radius: 15px;
     }
